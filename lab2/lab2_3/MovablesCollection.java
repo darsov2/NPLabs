@@ -3,18 +3,6 @@ package lab2.lab2_3;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-enum TYPE {
-    POINT,
-    CIRCLE
-}
-
-enum DIRECTION {
-    UP,
-    DOWN,
-    LEFT,
-    RIGHT
-}
-
 class MovablesCollection {
     Movable [] movable;
     static int x_MAX = 0, y_MAX = 0;
